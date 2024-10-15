@@ -1,0 +1,29 @@
+{
+  "name": "interactive-todo-list",
+  "version": "1.0.0",
+  "description": "A simple interactive To-Do List application built with Node.js and Express for coding assessments.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "app",
+    "express",
+    "flask"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "chai": "^4.3.4",
+    "supertest": "^6.1.6"
+  }
+}
+
